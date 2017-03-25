@@ -10,3 +10,9 @@ The intention behind this repo is to provide a fast way to set up a ci-environme
 
 # Requirements
 Just install docker on your host machine and check out this repo.
+
+# Setup
+Replace the rsa key in /jenkins_image/custom with the one jenkins should use. 
+You can also place a known_hosts file there.
+
+Execute the bootstrap.sh
